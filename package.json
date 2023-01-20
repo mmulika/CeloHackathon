@@ -1,0 +1,14 @@
+{
+  "name": "celohacathon",
+  "version": "1.0.0",
+  "description": "Focused on verification of waste reporting and incentiving the reporter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mmulika",
+  "license": "ISC",
+  "devDependencies": {
+    "hardhat": "^2.12.6"
+  }
+}
