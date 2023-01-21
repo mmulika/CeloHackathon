@@ -34,7 +34,7 @@ contract CreditToken is  News,ERC20{
         _;
     }
 
-    function approvedRporter(address _holder)public{
+    function approveComplain(address _holder)public{
         uint cred = Reporters[totalRegistered].newsId;
         approvedNews[_holder]+= cred;
     }
