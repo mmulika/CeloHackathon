@@ -23,5 +23,11 @@ console.log(balance.toString());
 
 }
 
+const transfer = async (req,res)=>{
+const provider = new WsProvider('wss://rpc.polkadot.io');
+const api = await ApiPromise.create({ provider});
+ const transfer
+}
+
 createAccount()
 checkbalance()
