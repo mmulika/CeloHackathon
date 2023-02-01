@@ -51,4 +51,24 @@ waitReady().then(() => {
 
 createAccount()
 // checkbalance()
+const good = async(req,res, next)={
+
+    const user =[]
+    const{ name, email, id} = req.body
+
+    const user = await Use.findbyInd(id)
+
+     const newUser = push.User({
+        name:name,
+        email:email
+     })
+
+
+     res.status(200).json({
+        success :true,
+        newUser
+     })
+
+
+}
 
