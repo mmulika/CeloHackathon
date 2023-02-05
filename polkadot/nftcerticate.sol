@@ -22,4 +22,11 @@ contract NFTEventCertificate {
         require(msg.sender == owner, "Only the owner can transfer ownership");
         owner = newOwner;
     }
+
+
+    struct User{
+         string name,
+         string email
+          uint number
+    }
 }
